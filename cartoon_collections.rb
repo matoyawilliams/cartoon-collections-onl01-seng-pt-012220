@@ -1,8 +1,12 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
-roll_call_dwarves =  ["Doc", "Dopey", "Bashful", "Grumpy"]
-roll_call_dwarves.each
+require 'pry'
 
+def roll_call_dwarves# code an argument here
+# dwarves = ["Dopey", "Bashful", "Grumpy"]
+dwarves.each do |names|
+  puts names
+end 
+end 
+  
 def summon_captain_planet# code an argument here
   # Your code here
   planteer_calls = ["earth", "wind", "fire", "water", "heart"]
